@@ -6,7 +6,7 @@ class Argumentos {
   Argumentos(this.nome, this.senha);
 
   validar(nome, senha, context) {
-    if (nome == 'charles' && senha == '12345') {
+    if (nome == 'charles' && senha == '123') {
       return Navigator.pushNamed(
         context,
         'segunda',
